@@ -1,0 +1,56 @@
+name: finwise
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+#-----------------PACKAGES-----------------#
+dependencies:
+  cloud_firestore: null
+  connectivity_plus: null
+  cupertino_icons: ^1.0.6
+  custom_sliding_segmented_control: null
+  firebase_auth: null
+  firebase_core: ^3.4.0
+  flutter:
+    sdk: flutter
+  flutter_svg: null
+  font_awesome_flutter: null
+  get: null
+  google_fonts: null
+  google_nav_bar: null
+  mobile_scanner: ^6.0.2
+  provider: ^6.1.2
+  http: ^1.2.2
+  fl_chart: ^0.69.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  #-----------------LOCAL ASSETS-----------------#
+  assets:
+    - assets/
+    - assets/images/
+
+  #-----------------LOCAL FONTS-----------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Thin.ttf
